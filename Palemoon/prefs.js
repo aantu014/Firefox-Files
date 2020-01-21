@@ -7,6 +7,7 @@
  * To make a manual change to preferences, you can visit the URL about:config
  */
 
+user_pref("security.mixed_content.block_display_content",	true);
 user_pref("browser.tabs.animate", false);
 user_pref("accessibility.typeaheadfind.flashBar", 0);
 user_pref("beacon.enabled", false);
