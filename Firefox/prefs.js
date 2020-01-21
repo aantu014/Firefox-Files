@@ -79,7 +79,7 @@ user_pref("dom.event.contextmenu.enabled", false);
 user_pref("dom.events.asyncClipboard", false);
 user_pref("dom.forms.autocomplete.formautofill", true);
 user_pref("dom.ipc.processCount", 1);
-user_pref("extensions.pocket.enabled",				false);
+user_pref("extensions.pocket.enabled", false);
 user_pref("font.internaluseonly.changed", false);
 user_pref("general.autoScroll", false);
 user_pref("general.smoothScroll", false);
