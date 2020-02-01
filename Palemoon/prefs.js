@@ -6,6 +6,9 @@
  *
  * To make a manual change to preferences, you can visit the URL about:config
  */
+user_pref("dom.ipc.plugins.reportCrashURL", false);
+user_pref("network.allow-experiments", false);
+user_pref("media.video_stats.enabled", false);
 user_pref("media.getusermedia.screensharing.enabled", false);
 user_pref("security.mixed_content.block_display_content",	true);
 user_pref("browser.tabs.animate", false);
