@@ -9,6 +9,7 @@
 // - modify it via the UI (e.g. via about:config in the browser); or
 // - set it within a user.js file in your profile.
 
+user_pref("media.getusermedia.screensharing.enabled", false);
 user_pref("security.mixed_content.block_display_content", true);
 user_pref("security.OCSP.require", true);
 user_pref("security.cert_pinning.enforcement_level",2);
@@ -123,7 +124,6 @@ user_pref("permissions.default.desktop-notification", 2);
 user_pref("permissions.default.geo", 2);
 user_pref("permissions.default.microphone", 2);
 user_pref("places.history.enabled", false);
-user_pref("places.history.expiration.transient_current_max_pages", 112348);
 user_pref("plugin.scan.plid.all", false);
 user_pref("privacy.clearOnShutdown.offlineApps", true);
 user_pref("privacy.clearOnShutdown.siteSettings", true);
