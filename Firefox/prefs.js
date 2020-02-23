@@ -25,7 +25,6 @@ user_pref("browser.cache.offline.enable", false);
 user_pref("browser.contentblocking.category", "custom");
 user_pref("browser.ctrlTab.recentlyUsedOrder", false);
 user_pref("browser.download.panel.shown", true);
-user_pref("browser.download.save_converter_index", 0);
 user_pref("browser.download.useDownloadDir", false);
 user_pref("browser.eme.ui.firstContentShown", true);
 user_pref("browser.formfill.enable", false);
