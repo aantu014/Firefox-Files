@@ -87,7 +87,6 @@ user_pref("geo.enabled", false);
 user_pref("layers.mlgpu.sanity-test-failed", false);
 user_pref("layout.spellcheckDefault", 0);
 user_pref("media.autoplay.default", 0);
-user_pref("media.gmp-gmpopenh264.autoupdate", false);
 user_pref("media.gmp-gmpopenh264.enabled", false);
 user_pref("media.gmp-widevinecdm.autoupdate", true);
 user_pref("media.gmp.storage.version.observed", 1);
