@@ -48,7 +48,6 @@ user_pref("browser.newtabpage.activity-stream.telemetry.structuredIngestion", fa
 user_pref("browser.newtabpage.storageVersion", 1);
 user_pref("browser.pagethumbnails.storage_version", 3);
 user_pref("browser.ping-centre.telemetry", false);
-user_pref("browser.preferences.defaultPerformanceSettings.enabled", false);
 user_pref("browser.privatebrowsing.autostart", true);
 user_pref("browser.protections_panel.infoMessage.seen", true);
 user_pref("browser.search.suggest.enabled", false);
