@@ -131,8 +131,6 @@ user_pref("privacy.resistFingerprinting", true);
 user_pref("privacy.sanitize.migrateFx3Prefs", true);
 user_pref("privacy.sanitize.sanitizeOnShutdown", true);
 user_pref("privacy.sanitize.timeSpan", 0);
-user_pref("privacy.socialtracking.notification.counter", 1);
-user_pref("privacy.socialtracking.notification.enabled", false);
 user_pref("privacy.trackingprotection.enabled", true);
 user_pref("privacy.trackingprotection.socialtracking.enabled", true);
 user_pref("sanity-test.advanced-layers", true);
