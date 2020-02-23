@@ -83,7 +83,6 @@ user_pref("extensions.pocket.enabled", false);
 user_pref("font.internaluseonly.changed", false);
 user_pref("general.autoScroll", false);
 user_pref("general.smoothScroll", false);
-user_pref("general.warnOnAboutConfig", false);
 user_pref("geo.enabled", false);
 user_pref("layers.mlgpu.sanity-test-failed", false);
 user_pref("layout.spellcheckDefault", 0);
