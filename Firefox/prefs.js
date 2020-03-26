@@ -160,5 +160,6 @@ user_pref("toolkit.telemetry.reportingpolicy.firstRun", false);
 user_pref("toolkit.telemetry.shutdownPingSender.enabled", false);
 user_pref("toolkit.telemetry.unified", false);
 user_pref("toolkit.telemetry.updatePing.enabled", false);
+//Disable any other telemetry
 user_pref("ui.osk.enabled", false);
 user_pref("webgl.disabled", true);
