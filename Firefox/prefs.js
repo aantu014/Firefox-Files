@@ -11,6 +11,7 @@
 
 user_pref("media.getusermedia.screensharing.enabled", false);
 user_pref("security.mixed_content.block_display_content", true);
+user_pref("security.mixed_content.block_object_subrequest", true);
 user_pref("security.OCSP.require", true);
 user_pref("security.cert_pinning.enforcement_level",2);
 user_pref("accessibility.force_disabled", 1);
