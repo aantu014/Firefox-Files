@@ -106,6 +106,7 @@ user_pref("network.prefetch-next", false);
 user_pref("network.protocol-handler.external.ms-windows-store", false);
 user_pref("network.protocol-handler.external.news", false);
 user_pref("network.protocol-handler.external.nntp", false);
+user_pref("network.protocol-handler.external.mailto", false);
 user_pref("network.protocol-handler.external.snews", false);
 user_pref("network.proxy.socks_remote_dns", true);
 user_pref("network.security.esni.enabled", true);
