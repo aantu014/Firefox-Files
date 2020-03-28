@@ -122,6 +122,7 @@ user_pref("plugin.scan.plid.all", false);
 user_pref("privacy.clearOnShutdown.offlineApps", true);
 user_pref("privacy.clearOnShutdown.siteSettings", true);
 user_pref("privacy.cpd.offlineApps", true);
+user_pref("privacy.cpd.passwords", true);
 user_pref("privacy.cpd.siteSettings", true);
 user_pref("privacy.donottrackheader.enabled", true);
 user_pref("privacy.firstparty.isolate", true);
