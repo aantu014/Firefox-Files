@@ -25,8 +25,6 @@ user_pref("browser.cache.disk_cache_ssl", false);
 user_pref("browser.cache.offline.enable", false);
 user_pref("browser.contentblocking.category", "custom");
 user_pref("browser.ctrlTab.recentlyUsedOrder", false);
-user_pref("browser.download.panel.shown", true);
-user_pref("browser.download.useDownloadDir", false);
 user_pref("browser.formfill.enable", false);
 user_pref("browser.launcherProcess.enabled", true);
 user_pref("browser.link.open_newwindow.restriction", 0);
