@@ -119,6 +119,7 @@ user_pref("permissions.default.desktop-notification", 2);
 user_pref("permissions.default.geo", 2);
 user_pref("permissions.default.microphone", 2);
 user_pref("places.history.enabled", false);
+user_pref("plugin.mousewheel.enabled", false);
 user_pref("plugin.scan.plid.all", false);
 user_pref("privacy.clearOnShutdown.offlineApps", true);
 user_pref("privacy.clearOnShutdown.siteSettings", true);
