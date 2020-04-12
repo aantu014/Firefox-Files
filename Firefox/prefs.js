@@ -10,7 +10,7 @@
 // - set it within a user.js file in your profile.
 
 
-
+user_pref("security.family_safety.mod", false);
 user_pref("dom.enable_performance_navigation_timing", false);
 user_pref("extensions.formautofill.addresses.enabled", false);
 user_pref("extensions.formautofill.creditCards.enabled", false);
