@@ -11,7 +11,7 @@
 
 
 
-
+user_pref("dom.enable_performance_navigation_timing", false);
 user_pref("extensions.formautofill.addresses.enabled", false);
 user_pref("extensions.formautofill.creditCards.enabled", false);
 user_pref("extensions.formautofill.heuristics.enabled", false);
