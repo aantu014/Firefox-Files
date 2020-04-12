@@ -10,6 +10,8 @@
 // - set it within a user.js file in your profile.
 
 
+
+user_pref("browser.library.activity-stream.enabled", false);
 user_pref("dom.serviceWorkers.interception.enabled", false);
 user_pref("dom.serviceWorkers.enabled", false);
 user_pref("dom.ipc.plugins.flash.subprocess.crashreporter.enabled", false);
