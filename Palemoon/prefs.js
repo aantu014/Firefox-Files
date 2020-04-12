@@ -15,7 +15,6 @@ user_pref("browser.tabs.animate", false);
 user_pref("accessibility.typeaheadfind.flashBar", 0);
 user_pref("beacon.enabled", false);
 user_pref("browser.bookmarks.restore_default_bookmarks", false);
-user_pref("browser.cache.disk.capacity", 358400);
 user_pref("browser.cache.disk.enable", false);
 user_pref("browser.cache.disk.smart_size.first_run", false);
 user_pref("browser.cache.disk_cache_ssl", false);
