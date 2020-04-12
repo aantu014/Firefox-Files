@@ -9,6 +9,12 @@
 // - modify it via the UI (e.g. via about:config in the browser); or
 // - set it within a user.js file in your profile.
 
+
+
+
+user_pref("extensions.formautofill.addresses.enabled", false);
+user_pref("extensions.formautofill.creditCards.enabled", false);
+user_pref("extensions.formautofill.heuristics.enabled", false);
 user_pref("extensions.screenshots.disabled", true);
 user_pref("dom.gamepad.enabled", false);
 user_pref("media.video_stats.enabled", false);
