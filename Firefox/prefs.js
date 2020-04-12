@@ -20,7 +20,6 @@ user_pref("dom.gamepad.enabled", false);
 user_pref("media.video_stats.enabled", false);
 user_pref("gfx.downloadable_fonts.disable_cache", true);
 user_pref("browser.library.activity-stream.enabled", false);
-user_pref("dom.serviceWorkers.interception.enabled", false);
 user_pref("dom.serviceWorkers.enabled", false);
 user_pref("dom.ipc.plugins.flash.subprocess.crashreporter.enabled", false);
 user_pref("dom.ipc.plugins.reportCrashURL", false);
