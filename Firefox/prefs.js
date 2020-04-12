@@ -9,8 +9,7 @@
 // - modify it via the UI (e.g. via about:config in the browser); or
 // - set it within a user.js file in your profile.
 
-
-
+user_pref("dom.ipc.plugins.flash.subprocess.crashreporter.enabled", false);
 user_pref("dom.ipc.plugins.reportCrashURL", false);
 user_pref("media.getusermedia.screensharing.enabled", false);
 user_pref("security.mixed_content.block_display_content", true);
