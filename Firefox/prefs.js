@@ -9,6 +9,7 @@
 // - modify it via the UI (e.g. via about:config in the browser); or
 // - set it within a user.js file in your profile.
 
+user_pref("privacy.spoof_english", false);
 user_pref("dom.webaudio.enabled", false);
 user_pref("security.family_safety.mod", false);
 user_pref("dom.enable_performance_navigation_timing", false);
