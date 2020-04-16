@@ -9,7 +9,7 @@
 // - modify it via the UI (e.g. via about:config in the browser); or
 // - set it within a user.js file in your profile.
 
-user_pref("dom.webnotifications.enable", 5);
+user_pref("dom.webnotifications.enable", false);
 user_pref("dom.popup_maximum", 5);
 user_pref("privacy.spoof_english", false);
 user_pref("dom.webaudio.enabled", false);
