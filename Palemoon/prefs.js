@@ -19,8 +19,6 @@ user_pref("browser.cache.disk.enable", false);
 user_pref("browser.cache.disk.smart_size.first_run", false);
 user_pref("browser.cache.disk_cache_ssl", false);
 user_pref("browser.cache.offline.enable", false);
-user_pref("browser.download.importedFromSqlite", true);
-user_pref("browser.download.panel.shown", true);
 user_pref("browser.formfill.enable", false);
 user_pref("browser.link.open_newwindow.restriction", 0);
 user_pref("browser.preferences.advanced.selectedTabIndex", 0);
