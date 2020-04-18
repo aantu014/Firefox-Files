@@ -9,6 +9,7 @@
 // - modify it via the UI (e.g. via about:config in the browser); or
 // - set it within a user.js file in your profile.
 
+user_pref("dom.popup_allowed_events", "click");
 user_pref("gfx.font_rendering.graphite.enabled", false);
 user_pref("dom.webnotifications.enable", false);
 user_pref("dom.popup_maximum", 5);
