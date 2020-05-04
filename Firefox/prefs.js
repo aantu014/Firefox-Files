@@ -104,6 +104,8 @@ user_pref("geo.enabled", false);
 user_pref("layers.mlgpu.sanity-test-failed", false);
 user_pref("layout.spellcheckDefault", 0);
 user_pref("media.autoplay.default", 0);
+//user_pref("media.eme.enabled", false);  //Wont be able to watch watch Netflix nor Crunchyroll
+//user_pref("media.gmp-widevinecdm.enabled", false); //Wont be able to watch watch Netflix nor Crunchyroll
 user_pref("media.gmp-gmpopenh264.enabled", false);
 user_pref("media.gmp.storage.version.observed", 1);
 user_pref("media.hardware-video-decoding.failed", false);
