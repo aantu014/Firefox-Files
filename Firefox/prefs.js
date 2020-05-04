@@ -9,6 +9,9 @@
 // - modify it via the UI (e.g. via about:config in the browser); or
 // - set it within a user.js file in your profile.
 
+//user_pref("browser.safebrowsing.downloads.remote.enabled", false); //More privacy but less security when downloading shit.
+/*Prevents Firefox from sending information about downloaded executable files to Google Safe Browsing.*/
+
 user_pref("dom.popup_allowed_events", "click");
 user_pref("gfx.font_rendering.graphite.enabled", false);
 user_pref("dom.webnotifications.enable", false);
@@ -123,7 +126,7 @@ user_pref("network.cookie.cookieBehavior", 1);
 user_pref("network.cookie.lifetimePolicy", 2);
 user_pref("network.dns.disablePrefetch", true);
 user_pref("network.http.max-persistent-connections-per-server", 10);
-user_pref("network.http.referer.XOriginPolicy", 1);
+user_pref("network.http.referer.XOriginPolicy", 1); // Setting to 2 breaks
 user_pref("network.http.referer.XOriginTrimmingPolicy", 2);
 user_pref("network.http.referer.trimmingPolicy", 2);
 user_pref("network.http.speculative-parallel-limit", 0);
