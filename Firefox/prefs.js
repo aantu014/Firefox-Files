@@ -93,6 +93,7 @@ user_pref("browser.privatebrowsing.autostart", true);
 user_pref("browser.search.suggest.enabled", false);
 user_pref("browser.search.update", false);
 user_pref("browser.send_pings.require_same_host", true);
+//user_pref("browser.sessionstore.interval", 3600000);// reduce writes on drive
 user_pref("browser.sessionhistory.max_entries", 5);
 user_pref("browser.sessionstore.max_tabs_undo", 0);
 user_pref("browser.sessionstore.privacy_level", 2);
