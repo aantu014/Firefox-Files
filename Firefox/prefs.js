@@ -160,6 +160,7 @@ user_pref("javascript.options.wasm", false);
 user_pref("layout.css.visited_links_enabled", false);
 user_pref("layers.mlgpu.sanity-test-failed", false);
 user_pref("layout.spellcheckDefault", 0);
+user_pref("mathml.disabled", true);
 user_pref("media.autoplay.default", 0);
 //user_pref("media.eme.enabled", false);  //Wont be able to watch watch Netflix nor Crunchyroll
 //user_pref("media.gmp-widevinecdm.enabled", false); //Wont be able to watch watch Netflix nor Crunchyroll
@@ -175,6 +176,7 @@ user_pref("media.peerconnection.use_document_iceservers", false);
 user_pref("media.peerconnection.video.enabled", false);
 user_pref("media.videocontrols.picture-in-picture.video-toggle.enabled", false);
 user_pref("media.wmf.deblacklisting-for-telemetry-in-gpu-process", false);
+user_pref("middlemouse.contentLoadURL", false);// Middle mouse click wont work
 user_pref("network.auth.subresource-http-auth-allow", 0); // Might break change to 1
 user_pref("network.IDN_show_punycode", true);
 user_pref("network.connectivity-service.enabled", false);
