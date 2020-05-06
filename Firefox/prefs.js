@@ -11,7 +11,6 @@
 
 //user_pref("browser.safebrowsing.downloads.remote.enabled", false); //More privacy but less security when downloading shit.
 /*Prevents Firefox from sending information about downloaded executable files to Google Safe Browsing.*/
-
 user_pref("browser.safebrowsing.provider.google.advisoryURL", "");
 user_pref("browser.safebrowsing.provider.google.reportMalwareMistakeURL", "");
 user_pref("browser.safebrowsing.provider.google.reportPhishMistakeURL", "");
@@ -20,6 +19,7 @@ user_pref("browser.safebrowsing.provider.google4.reportMalwareMistakeURL", "");
 user_pref("browser.safebrowsing.provider.google4.reportPhishMistakeURL", "");
 user_pref("browser.safebrowsing.provider.google4.reportURL", "");
 user_pref("browser.safebrowsing.reportPhishURL", "");
+
 user_pref("dom.popup_allowed_events", "click");
 user_pref("gfx.font_rendering.graphite.enabled", false);
 user_pref("dom.webnotifications.enable", false);
@@ -56,6 +56,7 @@ user_pref("browser.cache.offline.enable", false);
 user_pref("browser.cache.offline.storage.enable", false);
 user_pref("browser.contentblocking.category", "custom");
 user_pref("browser.ctrlTab.recentlyUsedOrder", false);
+user_pref("browser.discovery.enabled", false);
 user_pref("browser.formfill.enable", false);
 user_pref("browser.launcherProcess.enabled", true);
 user_pref("browser.link.open_newwindow.restriction", 0);
