@@ -29,7 +29,14 @@ user_pref("network.captive-portal-service.enabled", false); // [FF52+]
 user_pref("app.normandy.enabled", false);
 user_pref("app.normandy.api_url", "");
 user_pref("dom.popup_allowed_events", "click");
+
+//will make fonts look ugly
+user_pref("gfx.downloadable_fonts.enabled", false);
+user_pref("gfx.downloadable_fonts.fallback_delay", -1);
+user_pref("gfx.downloadable_fonts.disable_cache", true);
 user_pref("gfx.font_rendering.graphite.enabled", false);
+user_pref("gfx.font_rendering.opentype_svg.enabled", false);
+
 user_pref("dom.webnotifications.enable", false);
 user_pref("dom.popup_maximum", 5);
 user_pref("privacy.spoof_english", false);
@@ -43,7 +50,7 @@ user_pref("extensions.formautofill.heuristics.enabled", false);
 user_pref("extensions.screenshots.disabled", true);
 user_pref("dom.gamepad.enabled", false);
 user_pref("media.video_stats.enabled", false);
-user_pref("gfx.downloadable_fonts.disable_cache", true);
+
 user_pref("browser.library.activity-stream.enabled", false);
 user_pref("dom.serviceWorkers.enabled", false);
 user_pref("dom.ipc.plugins.flash.subprocess.crashreporter.enabled", false);
@@ -134,8 +141,6 @@ user_pref("geo.provider.network.url", "https://location.services.mozilla.com/v1/
 user_pref("geo.provider.ms-windows-location", false); // [WINDOWS]
 //user_pref("geo.provider.use_corelocation", false); // [MAC]
 //user_pref("geo.provider.use_gpsd", false); // [LINUX]
-   // user_pref("gfx.downloadable_fonts.enabled", false); // [FF41+]
-   // user_pref("gfx.downloadable_fonts.fallback_delay", -1);
 user_pref("browser.search.geoSpecificDefaults", false);
 user_pref("browser.search.geoSpecificDefaults.url", "");
 user_pref("layout.css.visited_links_enabled", false);
