@@ -152,6 +152,7 @@ user_pref("media.peerconnection.use_document_iceservers", false);
 user_pref("media.peerconnection.video.enabled", false);
 user_pref("media.videocontrols.picture-in-picture.video-toggle.enabled", false);
 user_pref("media.wmf.deblacklisting-for-telemetry-in-gpu-process", false);
+user_pref("network.auth.subresource-http-auth-allow", 0); // Might break change to 1
 user_pref("network.IDN_show_punycode", true);
 user_pref("network.connectivity-service.enabled", false);
 user_pref("network.cookie.cookieBehavior", 1);
