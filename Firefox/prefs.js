@@ -114,6 +114,7 @@ user_pref("font.internaluseonly.changed", false);
 user_pref("general.autoScroll", false);
 user_pref("general.smoothScroll", false);
 user_pref("geo.enabled", false);
+user_pref("geo.provider.network.url", "https://location.services.mozilla.com/v1/geolocate?key=%MOZILLA_API_KEY%");
 user_pref("layers.mlgpu.sanity-test-failed", false);
 user_pref("layout.spellcheckDefault", 0);
 user_pref("media.autoplay.default", 0);
