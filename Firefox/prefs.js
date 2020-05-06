@@ -205,6 +205,7 @@ user_pref("sanity-test.advanced-layers", true);
 user_pref("sanity-test.running", false);
 user_pref("security.certerrors.recordEventTelemetry", false);
 user_pref("security.identitypopup.recordEventTelemetry", false);
+user_pref("security.pki.sha1_enforcement_level", 1);
 user_pref("security.protectionspopup.recordEventTelemetry", false);
 user_pref("security.ssl.enable_false_start", false);
 user_pref("security.ssl.require_safe_negotiation", true);
