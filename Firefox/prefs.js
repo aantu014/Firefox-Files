@@ -30,9 +30,11 @@ user_pref("app.normandy.enabled", false);
 user_pref("app.normandy.api_url", "");
 user_pref("dom.popup_allowed_events", "click");
 
+//Will break video player fonts
+//user_pref("gfx.downloadable_fonts.enabled", false);
+//user_pref("gfx.downloadable_fonts.fallback_delay", -1);
+
 //will make fonts look ugly
-user_pref("gfx.downloadable_fonts.enabled", false);
-user_pref("gfx.downloadable_fonts.fallback_delay", -1);
 user_pref("gfx.downloadable_fonts.disable_cache", true);
 user_pref("gfx.font_rendering.graphite.enabled", false);
 user_pref("gfx.font_rendering.opentype_svg.enabled", false);
