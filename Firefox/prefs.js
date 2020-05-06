@@ -96,6 +96,7 @@ user_pref("browser.send_pings.require_same_host", true);
 user_pref("browser.sessionhistory.max_entries", 5);
 user_pref("browser.sessionstore.max_tabs_undo", 0);
 user_pref("browser.sessionstore.privacy_level", 2);
+user_pref("browser.sessionstore.resume_from_crash", false);
 user_pref("browser.shell.checkDefaultBrowser", false);
 user_pref("browser.shell.didSkipDefaultBrowserCheckOnFirstRun", true);
 user_pref("browser.tabs.warnOnClose", false);
