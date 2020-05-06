@@ -127,6 +127,8 @@ user_pref("browser.urlbar.speculativeConnect.enabled", false);
 user_pref("browser.urlbar.suggest.bookmark", false);
 user_pref("browser.urlbar.suggest.history", false);
 user_pref("browser.urlbar.suggest.openpage", false);
+user_pref("browser.uitour.enabled", false);
+user_pref("browser.uitour.url", "");
 user_pref("datareporting.healthreport.uploadEnabled", false);
 user_pref("datareporting.policy.dataSubmissionPolicyAcceptedVersion", 2);
 user_pref("device.sensors.enabled", false);
@@ -139,6 +141,7 @@ user_pref("dom.event.clipboardevents.enabled", false); //Breaks copy/paste funct
 user_pref("dom.event.contextmenu.enabled", false);//Breaks right-click function on JS-based web applications like Google Docs.
 user_pref("dom.events.asyncClipboard", false);
 user_pref("dom.forms.autocomplete.formautofill", true);
+user_pref("dom.vr.enabled", false);
 user_pref("dom.vibrator.enabled", false);
 //user_pref("dom.ipc.processCount", 1);                     //Might cause performance dips
 user_pref("extensions.pocket.enabled", false);
