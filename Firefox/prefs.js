@@ -115,6 +115,9 @@ user_pref("general.autoScroll", false);
 user_pref("general.smoothScroll", false);
 user_pref("geo.enabled", false);
 user_pref("geo.provider.network.url", "https://location.services.mozilla.com/v1/geolocate?key=%MOZILLA_API_KEY%");
+user_pref("geo.provider.ms-windows-location", false); // [WINDOWS]
+//user_pref("geo.provider.use_corelocation", false); // [MAC]
+//user_pref("geo.provider.use_gpsd", false); // [LINUX]
 user_pref("layers.mlgpu.sanity-test-failed", false);
 user_pref("layout.spellcheckDefault", 0);
 user_pref("media.autoplay.default", 0);
