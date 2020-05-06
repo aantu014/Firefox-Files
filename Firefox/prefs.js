@@ -134,6 +134,8 @@ user_pref("geo.provider.network.url", "https://location.services.mozilla.com/v1/
 user_pref("geo.provider.ms-windows-location", false); // [WINDOWS]
 //user_pref("geo.provider.use_corelocation", false); // [MAC]
 //user_pref("geo.provider.use_gpsd", false); // [LINUX]
+   // user_pref("gfx.downloadable_fonts.enabled", false); // [FF41+]
+   // user_pref("gfx.downloadable_fonts.fallback_delay", -1);
 user_pref("browser.search.geoSpecificDefaults", false);
 user_pref("browser.search.geoSpecificDefaults.url", "");
 user_pref("layout.css.visited_links_enabled", false);
