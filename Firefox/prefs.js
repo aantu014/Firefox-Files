@@ -24,7 +24,7 @@ user_pref("browser.safebrowsing.reportPhishURL", "");
 
 //If connecting to public wifi asking for Terms of Service might not be able to connect.
 user_pref("captivedetect.canonicalURL", "");
-user_pref("network.captive-portal-service.enabled", false); // [FF52+]
+user_pref("network.captive-portal-service.enabled", false);
 
 user_pref("app.normandy.enabled", false);
 user_pref("app.normandy.api_url", "");
@@ -42,6 +42,11 @@ user_pref("dom.webnotifications.enable", false);
 user_pref("dom.webnotifications.serviceworker.enabled", false);
 user_pref("dom.push.enabled", false);
 
+//Disabling Ion/JIT can cause some site issues and performance loss
+// user_pref("javascript.options.ion", false);
+// user_pref("javascript.options.baselinejit", false);
+
+user_pref("dom.IntersectionObserver.enabled", false);
 user_pref("dom.popup_maximum", 5);
 user_pref("privacy.spoof_english", false);
 user_pref("dom.webaudio.enabled", false);
@@ -54,7 +59,6 @@ user_pref("extensions.formautofill.heuristics.enabled", false);
 user_pref("extensions.screenshots.disabled", true);
 user_pref("dom.gamepad.enabled", false);
 user_pref("media.video_stats.enabled", false);
-
 user_pref("browser.library.activity-stream.enabled", false);
 user_pref("dom.serviceWorkers.enabled", false);//Could break sites
 user_pref("dom.ipc.plugins.flash.subprocess.crashreporter.enabled", false);
@@ -148,6 +152,8 @@ user_pref("geo.provider.ms-windows-location", false); // [WINDOWS]
 //user_pref("geo.provider.use_gpsd", false); // [LINUX]
 user_pref("browser.search.geoSpecificDefaults", false);
 user_pref("browser.search.geoSpecificDefaults.url", "");
+user_pref("javascript.options.asmjs", false);
+user_pref("javascript.options.wasm", false);
 user_pref("layout.css.visited_links_enabled", false);
 user_pref("layers.mlgpu.sanity-test-failed", false);
 user_pref("layout.spellcheckDefault", 0);
