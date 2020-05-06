@@ -101,6 +101,7 @@ user_pref("browser.shell.didSkipDefaultBrowserCheckOnFirstRun", true);
 user_pref("browser.tabs.warnOnClose", false);
 user_pref("browser.touchmode.auto", false);
 user_pref("browser.uidensity", 1);
+user_pref("browser.urlbar.autoFill", false);
 user_pref("browser.urlbar.placeholderName", "DuckDuckGo");
 user_pref("browser.urlbar.placeholderName.private", "DuckDuckGo");
 user_pref("browser.urlbar.speculativeConnect.enabled", false);
