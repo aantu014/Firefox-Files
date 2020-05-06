@@ -119,6 +119,7 @@ user_pref("browser.shell.didSkipDefaultBrowserCheckOnFirstRun", true);
 user_pref("browser.tabs.warnOnClose", false);
 user_pref("browser.taskbar.lists.frequent.enabled", false);
 user_pref("browser.touchmode.auto", false);
+user_pref("dom.w3c_touch_events.enabled", 0);
 user_pref("browser.uidensity", 1);
 user_pref("browser.urlbar.autoFill", false);
 user_pref("browser.urlbar.oneOffSearches", false);
