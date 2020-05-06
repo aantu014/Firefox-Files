@@ -20,6 +20,10 @@ user_pref("browser.safebrowsing.provider.google4.reportPhishMistakeURL", "");
 user_pref("browser.safebrowsing.provider.google4.reportURL", "");
 user_pref("browser.safebrowsing.reportPhishURL", "");
 
+//If connecting to public wifi asking for Terms of Service might not be able to connect.
+user_pref("captivedetect.canonicalURL", "");
+user_pref("network.captive-portal-service.enabled", false); // [FF52+]
+
 user_pref("dom.popup_allowed_events", "click");
 user_pref("gfx.font_rendering.graphite.enabled", false);
 user_pref("dom.webnotifications.enable", false);
