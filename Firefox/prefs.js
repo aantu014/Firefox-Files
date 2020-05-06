@@ -59,6 +59,7 @@ user_pref("extensions.formautofill.heuristics.enabled", false);
 user_pref("extensions.screenshots.disabled", true);
 user_pref("dom.gamepad.enabled", false);
 user_pref("media.video_stats.enabled", false);
+user_pref("media.ondevicechange.enabled", false);
 user_pref("browser.library.activity-stream.enabled", false);
 user_pref("dom.serviceWorkers.enabled", false);//Could break sites
 user_pref("dom.ipc.plugins.flash.subprocess.crashreporter.enabled", false);
@@ -265,4 +266,5 @@ user_pref("toolkit.telemetry.unified", false);
 user_pref("toolkit.telemetry.updatePing.enabled", false);
 //Disable any other "telemetry" and anything with "report" in about:config
 user_pref("ui.osk.enabled", false);
+user_pref("webgl.enable-debug-renderer-info", false);
 user_pref("webgl.disabled", true);
