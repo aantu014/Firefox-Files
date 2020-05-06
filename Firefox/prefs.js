@@ -26,6 +26,8 @@ user_pref("browser.safebrowsing.reportPhishURL", "");
 user_pref("captivedetect.canonicalURL", "");
 user_pref("network.captive-portal-service.enabled", false); // [FF52+]
 
+user_pref("app.normandy.enabled", false);
+user_pref("app.normandy.api_url", "");
 user_pref("dom.popup_allowed_events", "click");
 user_pref("gfx.font_rendering.graphite.enabled", false);
 user_pref("dom.webnotifications.enable", false);
