@@ -81,6 +81,7 @@ user_pref("browser.cache.offline.storage.enable", false);
 user_pref("browser.contentblocking.category", "custom");
 user_pref("browser.ctrlTab.recentlyUsedOrder", false);
 user_pref("browser.discovery.enabled", false);
+user_pref("browser.download.hide_plugins_without_extensions", false);
 user_pref("browser.formfill.enable", false);
 user_pref("browser.launcherProcess.enabled", true);
 user_pref("browser.link.open_newwindow.restriction", 0);
