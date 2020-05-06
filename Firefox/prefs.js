@@ -37,7 +37,11 @@ user_pref("gfx.downloadable_fonts.disable_cache", true);
 user_pref("gfx.font_rendering.graphite.enabled", false);
 user_pref("gfx.font_rendering.opentype_svg.enabled", false);
 
+//Wont allow website notification
 user_pref("dom.webnotifications.enable", false);
+user_pref("dom.webnotifications.serviceworker.enabled", false);
+user_pref("dom.push.enabled", false);
+
 user_pref("dom.popup_maximum", 5);
 user_pref("privacy.spoof_english", false);
 user_pref("dom.webaudio.enabled", false);
@@ -52,7 +56,7 @@ user_pref("dom.gamepad.enabled", false);
 user_pref("media.video_stats.enabled", false);
 
 user_pref("browser.library.activity-stream.enabled", false);
-user_pref("dom.serviceWorkers.enabled", false);
+user_pref("dom.serviceWorkers.enabled", false);//Could break sites
 user_pref("dom.ipc.plugins.flash.subprocess.crashreporter.enabled", false);
 user_pref("dom.ipc.plugins.reportCrashURL", false);
 user_pref("media.getusermedia.screensharing.enabled", false);
