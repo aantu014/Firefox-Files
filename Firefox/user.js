@@ -252,7 +252,6 @@ user_pref("security.ssl3.rsa_aes_128_sha", false);
 user_pref("security.ssl3.rsa_aes_256_sha", false);
 user_pref("security.tls.enable_0rtt_data", false);
 user_pref("security.tls.version.min", 3);
-user_pref("services.sync.engine.addresses.available", true);
 user_pref("services.sync.globalScore", 0);
 user_pref("services.sync.nextSync", 0);
 user_pref("services.sync.tabs.lastSync", "0");
