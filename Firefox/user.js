@@ -193,9 +193,11 @@ user_pref("network.dns.disablePrefetch", true);
 user_pref("network.dns.disablePrefetchFromHTTPS", true);
 user_pref("network.ftp.enabled", false);
 user_pref("network.http.max-persistent-connections-per-server", 10);
-user_pref("network.http.referer.XOriginPolicy", 1); // Setting to 2 breaks
+user_pref("network.http.referer.XOriginPolicy", 1); // Setting to 2 breaks sites
 user_pref("network.http.referer.XOriginTrimmingPolicy", 2);
 user_pref("network.http.referer.trimmingPolicy", 2);
+//user_pref("network.http.referer.spoofSource", true); // Breaks sites
+//user_pref("network.http.sendRefererHeader", 0); // Breaks sites
 user_pref("network.http.speculative-parallel-limit", 0);
 user_pref("network.predictor.cleaned-up", true);
 user_pref("network.predictor.enabled", false);
