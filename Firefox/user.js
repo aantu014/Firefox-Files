@@ -273,3 +273,5 @@ user_pref("toolkit.telemetry.updatePing.enabled", false);
 user_pref("ui.osk.enabled", false);
 user_pref("webgl.enable-debug-renderer-info", false);
 user_pref("webgl.disabled", true);
+user_pref("browser.geolocation.warning.infoURL", "");
+user_pref("browser.search.region", "");
