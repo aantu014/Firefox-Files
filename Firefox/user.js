@@ -46,6 +46,7 @@ user_pref("dom.push.serverURL", "");
 user_pref("dom.webnotifications.enable", false);
 user_pref("dom.webnotifications.serviceworker.enabled", false);
 
+user_pref("dom.workers.enabled", true);//test it out
 
 //Disabling Ion/JIT can cause some site issues and performance loss
 // user_pref("javascript.options.ion", false);
@@ -276,5 +277,16 @@ user_pref("toolkit.telemetry.updatePing.enabled", false);
 user_pref("ui.osk.enabled", false);
 user_pref("webgl.enable-debug-renderer-info", false);
 user_pref("webgl.disabled", true);
+
+////test These out
 user_pref("browser.geolocation.warning.infoURL", "");
 user_pref("browser.search.region", "");
+user_pref("extensions.formautofill.addresses.enabled", false);
+user_pref("extensions.formautofill.available", "ignore");
+user_pref("extensions.formautofill.creditCards.enabled", false);
+user_pref("extensions.formautofill.firstTimeUse", false);
+user_pref("extensions.formautofill.heuristics.enabled", false);
+user_pref("extensions.getAddons.cache.enabled", false);
+
+
+
