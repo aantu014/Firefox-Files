@@ -61,6 +61,8 @@ user_pref("dom.battery.enabled", false);
 user_pref("dom.enable_performance", false);
 user_pref("dom.enable_resource_timing", false);
 user_pref("dom.caches.enabled", false);
+user_pref("dom.push.connection.enabled", false);
+user_pref("dom.push.serverURL", "");
 user_pref("dom.event.clipboardevents.enabled", false); //Breaks copy/paste function on JS-based web applications like Google Docs.
 user_pref("dom.event.contextmenu.enabled", false);//Breaks right-click function on JS-based web applications like Google Docs.
 user_pref("dom.maxHardwareConcurrency", 2); // Will decrease browser perfomance //Not nessessary if privacy.resistFingerprinting enabled
