@@ -288,5 +288,8 @@ user_pref("extensions.formautofill.firstTimeUse", false);
 user_pref("extensions.formautofill.heuristics.enabled", false);
 user_pref("extensions.getAddons.cache.enabled", false);
 
-
+user_pref("identity.fxaccounts.remote.profile.uri", "");
+user_pref("identity.mobilepromo.android", "");
+user_pref("identity.mobile.promo", "");
+user_pref("identity.mobilepromo.ios", "");
 
