@@ -46,8 +46,6 @@ user_pref("dom.push.serverURL", "");
 user_pref("dom.webnotifications.enable", false);
 user_pref("dom.webnotifications.serviceworker.enabled", false);
 
-user_pref("dom.workers.enabled", true);//test it out
-
 //Disabling Ion/JIT can cause some site issues and performance loss
 // user_pref("javascript.options.ion", false);
 // user_pref("javascript.options.baselinejit", false);
@@ -292,4 +290,4 @@ user_pref("identity.fxaccounts.remote.profile.uri", "");
 user_pref("identity.mobilepromo.android", "");
 user_pref("identity.mobile.promo", "");
 user_pref("identity.mobilepromo.ios", "");
-
+user_pref("layers.shared-buffer-provider.enabled", false);
