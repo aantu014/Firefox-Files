@@ -40,9 +40,12 @@ user_pref("gfx.font_rendering.graphite.enabled", false);
 user_pref("gfx.font_rendering.opentype_svg.enabled", false);
 
 //Wont allow website notification
+user_pref("dom.push.connection.enabled", false);
+user_pref("dom.push.enabled", false);
+user_pref("dom.push.serverURL", "");
 user_pref("dom.webnotifications.enable", false);
 user_pref("dom.webnotifications.serviceworker.enabled", false);
-user_pref("dom.push.enabled", false);
+
 
 //Disabling Ion/JIT can cause some site issues and performance loss
 // user_pref("javascript.options.ion", false);
