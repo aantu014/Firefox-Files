@@ -164,3 +164,4 @@ user_pref("general.useragent.override", "Mozilla/5.0 (Windows NT 10.0; rv:68.0) 
 
 user_pref("browser.geolocation.warning.infoURL", "");
 user_pref("layers.shared-buffer-provider.enabled", false);
+user_pref("dom.workers.enabled", false);
