@@ -301,3 +301,5 @@ user_pref("network.http.altsvc.oe", false);
 user_pref("dom.IntersectionObserver.enabled", false);
 user_pref("dom.indexedDB.logging.details", false);
 user_pref("dom.indexedDB.logging.enabled", false);
+ 
+//user_pref("dom.caches.enabled", false); might affect perfomance
