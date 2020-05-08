@@ -158,3 +158,5 @@ user_pref("network.http.altsvc.oe", false);
 user_pref("xpinstall.whitelist.required", true);
 //Spoof UserAgent
 user_pref("general.useragent.override", "Mozilla/5.0 (Windows NT 10.0; rv:68.0) Gecko/20100101 Firefox/68.0");
+
+user_pref("browser.geolocation.warning.infoURL", "");
