@@ -59,7 +59,9 @@ user_pref("dom.enable_performance_navigation_timing", false);
 user_pref("extensions.formautofill.addresses.enabled", false);
 user_pref("extensions.formautofill.available", "off");
 user_pref("extensions.formautofill.creditCards.enabled", false);
+user_pref("extensions.formautofill.firstTimeUse", false);
 user_pref("extensions.formautofill.heuristics.enabled", false);
+user_pref("extensions.getAddons.cache.enabled", false);
 user_pref("extensions.screenshots.disabled", true);
 user_pref("dom.gamepad.enabled", false);
 user_pref("media.video_stats.enabled", false);
@@ -279,16 +281,10 @@ user_pref("webgl.disabled", true);
 ////test These out
 user_pref("browser.geolocation.warning.infoURL", "");
 user_pref("browser.search.region", "");
-user_pref("extensions.formautofill.addresses.enabled", false);
-user_pref("extensions.formautofill.available", "ignore");
-user_pref("extensions.formautofill.creditCards.enabled", false);
-user_pref("extensions.formautofill.firstTimeUse", false);
-user_pref("extensions.formautofill.heuristics.enabled", false);
-user_pref("extensions.getAddons.cache.enabled", false);
 
 user_pref("identity.fxaccounts.remote.profile.uri", "");
 user_pref("identity.mobilepromo.android", "");
-user_pref("identity.mobile.promo", "");
+//user_pref("identity.mobile.promo", ""); //depreacted?
 user_pref("identity.mobilepromo.ios", "");
 user_pref("layers.shared-buffer-provider.enabled", false);
 user_pref("security.sandbox.logging.enabled", false);
@@ -298,7 +294,6 @@ user_pref("toolkit.cosmeticAnimations.enabled", false);
 user_pref("network.http.altsvc.enabled", false);
 user_pref("network.http.altsvc.oe", false);
 
-user_pref("dom.IntersectionObserver.enabled", false);
 user_pref("dom.indexedDB.logging.details", false);
 user_pref("dom.indexedDB.logging.enabled", false);
  
