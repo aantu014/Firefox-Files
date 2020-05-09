@@ -290,9 +290,9 @@ user_pref("layers.shared-buffer-provider.enabled", false);
 user_pref("security.sandbox.logging.enabled", false);
 user_pref("toolkit.cosmeticAnimations.enabled", false);
 
-//If first party isolate is enabled
-user_pref("network.http.altsvc.enabled", false);
-user_pref("network.http.altsvc.oe", false);
+//If first party isolate is enabled but makes shit slow af
+//user_pref("network.http.altsvc.enabled", false);
+//user_pref("network.http.altsvc.oe", false);
 
 user_pref("dom.indexedDB.logging.details", false);
 user_pref("dom.indexedDB.logging.enabled", false);
