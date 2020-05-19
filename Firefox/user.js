@@ -125,6 +125,7 @@ user_pref("browser.sessionstore.privacy_level", 2);
 user_pref("browser.sessionstore.resume_from_crash", false);
 user_pref("browser.shell.checkDefaultBrowser", false);
 user_pref("browser.shell.didSkipDefaultBrowserCheckOnFirstRun", true);
+//user_pref("browser.tabs.remote.autostart", false); //will reduce ram usage but reduce perfomance
 user_pref("browser.tabs.warnOnClose", false);
 user_pref("browser.taskbar.lists.frequent.enabled", false);
 user_pref("browser.touchmode.auto", false);
