@@ -168,7 +168,7 @@ user_pref("geo.provider.ms-windows-location", false); // [WINDOWS]
 user_pref("browser.search.geoSpecificDefaults", false);
 user_pref("browser.search.geoSpecificDefaults.url", "");
 user_pref("javascript.options.asmjs", false);
-user_pref("javascript.options.wasm", false);
+//user_pref("javascript.options.wasm", false);  //breaks crunchyroll subs
 user_pref("layout.css.visited_links_enabled", false);
 user_pref("layers.mlgpu.sanity-test-failed", false);
 user_pref("layout.spellcheckDefault", 0);
