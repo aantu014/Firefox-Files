@@ -152,7 +152,7 @@ user_pref("dom.enable_resource_timing", false);
 user_pref("dom.event.clipboardevents.enabled", false); //Breaks copy/paste function on JS-based web applications like Google Docs.
 user_pref("dom.event.contextmenu.enabled", false);//Breaks right-click function on JS-based web applications like Google Docs.
 user_pref("dom.events.asyncClipboard", false);
-user_pref("dom.forms.autocomplete.formautofill", true);
+user_pref("dom.forms.autocomplete.formautofill", false);
 user_pref("dom.vr.enabled", false);
 user_pref("dom.vibrator.enabled", false);
 //user_pref("dom.ipc.processCount", 1);                     //Might cause performance dips
