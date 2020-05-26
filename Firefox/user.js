@@ -52,7 +52,7 @@ user_pref("dom.webnotifications.serviceworker.enabled", false);
 
 user_pref("dom.IntersectionObserver.enabled", false);
 user_pref("dom.popup_maximum", 5);
-user_pref("privacy.spoof_english", false);
+user_pref("privacy.spoof_english", 2);
 user_pref("dom.webaudio.enabled", false);
 user_pref("security.family_safety.mod", false);
 user_pref("dom.enable_performance_navigation_timing", false);
