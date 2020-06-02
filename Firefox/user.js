@@ -239,7 +239,7 @@ user_pref("privacy.sanitize.sanitizeOnShutdown", true);
 user_pref("privacy.sanitize.timeSpan", 0);
 user_pref("privacy.trackingprotection.enabled", true);
 user_pref("privacy.trackingprotection.socialtracking.enabled", true);
-user_pref("sanity-test.advanced-layers", true);
+//user_pref("sanity-test.advanced-layers", true);// windows
 user_pref("sanity-test.running", false);
 user_pref("security.certerrors.recordEventTelemetry", false);
 user_pref("security.identitypopup.recordEventTelemetry", false);
