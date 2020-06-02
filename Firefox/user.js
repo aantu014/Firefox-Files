@@ -170,7 +170,7 @@ user_pref("browser.search.geoSpecificDefaults.url", "");
 user_pref("javascript.options.asmjs", false);
 //user_pref("javascript.options.wasm", false);  //breaks crunchyroll subs
 user_pref("layout.css.visited_links_enabled", false);
-user_pref("layers.mlgpu.sanity-test-failed", false);
+//user_pref("layers.mlgpu.sanity-test-failed", false); windows
 user_pref("layout.spellcheckDefault", 0);
 user_pref("mathml.disabled", true);
 user_pref("media.autoplay.default", 0);
