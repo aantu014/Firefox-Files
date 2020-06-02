@@ -90,7 +90,7 @@ user_pref("browser.ctrlTab.recentlyUsedOrder", false);
 user_pref("browser.discovery.enabled", false);
 user_pref("browser.download.hide_plugins_without_extensions", false);
 user_pref("browser.formfill.enable", false);
-user_pref("browser.launcherProcess.enabled", true);
+//user_pref("browser.launcherProcess.enabled", true); Windows
 user_pref("browser.link.open_newwindow.restriction", 0);
 user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.addons", false);
 user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.features", false);
