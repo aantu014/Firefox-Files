@@ -204,7 +204,7 @@ user_pref("network.http.referer.trimmingPolicy", 2);
 //user_pref("network.http.referer.spoofSource", true); // Breaks sites
 //user_pref("network.http.sendRefererHeader", 0); // Breaks sites
 user_pref("network.http.speculative-parallel-limit", 0);
-user_pref("network.predictor.cleaned-up", true);
+//user_pref("network.predictor.cleaned-up", true); Windows
 user_pref("network.predictor.enabled", false);
 user_pref("network.prefetch-next", false);
 user_pref("network.protocol-handler.external.ms-windows-store", false);
