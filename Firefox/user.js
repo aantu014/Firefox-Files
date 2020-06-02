@@ -207,7 +207,7 @@ user_pref("network.http.speculative-parallel-limit", 0);
 //user_pref("network.predictor.cleaned-up", true); Windows
 user_pref("network.predictor.enabled", false);
 user_pref("network.prefetch-next", false);
-user_pref("network.protocol-handler.external.ms-windows-store", false);
+//user_pref("network.protocol-handler.external.ms-windows-store", false); Windows
 user_pref("network.protocol-handler.external.news", false);
 user_pref("network.protocol-handler.external.nntp", false);
 user_pref("network.protocol-handler.external.mailto", false);
