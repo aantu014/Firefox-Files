@@ -240,7 +240,7 @@ user_pref("privacy.sanitize.timeSpan", 0);
 user_pref("privacy.trackingprotection.enabled", true);
 user_pref("privacy.trackingprotection.socialtracking.enabled", true);
 //user_pref("sanity-test.advanced-layers", true);// windows
-user_pref("sanity-test.running", false);
+//user_pref("sanity-test.running", false);//Windows
 user_pref("security.certerrors.recordEventTelemetry", false);
 user_pref("security.identitypopup.recordEventTelemetry", false);
 user_pref("security.pki.sha1_enforcement_level", 1);
@@ -275,7 +275,7 @@ user_pref("toolkit.telemetry.shutdownPingSender.enabled", false);
 user_pref("toolkit.telemetry.unified", false);
 user_pref("toolkit.telemetry.updatePing.enabled", false);
 //Disable any other "telemetry" and anything with "report" in about:config
-user_pref("ui.osk.enabled", false);
+//user_pref("ui.osk.enabled", false); Windows
 user_pref("webgl.enable-debug-renderer-info", false);
 user_pref("webgl.disabled", true);
 
@@ -288,7 +288,7 @@ user_pref("identity.mobilepromo.android", "");
 //user_pref("identity.mobile.promo", ""); //depreacted?
 user_pref("identity.mobilepromo.ios", "");
 user_pref("layers.shared-buffer-provider.enabled", false);
-user_pref("security.sandbox.logging.enabled", false);
+//user_pref("security.sandbox.logging.enabled", false); Windows
 user_pref("toolkit.cosmeticAnimations.enabled", false);
 
 //If first party isolate is enabled but makes shit slow af
