@@ -184,6 +184,7 @@ user_pref("media.navigator.enabled", false);
 user_pref("media.getusermedia.aec_enabled", false);
 user_pref("media.getusermedia.agc_enabled", false);
 user_pref("media.getusermedia.noise_enabled", false);
+user_pref("media.getusermedia.hpf_enabled", false);
 user_pref("media.peerconnection.enabled", false);
 user_pref("media.peerconnection.identity.enabled", false);
 user_pref("media.peerconnection.identity.timeout", 1);
