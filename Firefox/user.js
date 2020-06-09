@@ -71,6 +71,7 @@ user_pref("dom.serviceWorkers.enabled", false);//Could break sites
 user_pref("dom.ipc.plugins.flash.subprocess.crashreporter.enabled", false);
 user_pref("dom.ipc.plugins.reportCrashURL", false);
 user_pref("media.getusermedia.screensharing.enabled", false);
+user_pref("media.getusermedia.audiocapture.enabled",	false);
 user_pref("security.mixed_content.block_display_content", true);
 user_pref("security.mixed_content.block_object_subrequest", true);
 user_pref("security.OCSP.require", true);
