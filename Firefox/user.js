@@ -142,6 +142,7 @@ user_pref("browser.urlbar.suggest.history", false);
 user_pref("browser.urlbar.suggest.openpage", false);
 user_pref("browser.uitour.enabled", false);
 user_pref("browser.uitour.url", "");
+user_pref("datareporting.healthreport.infoURL, "");
 user_pref("datareporting.healthreport.uploadEnabled", false);
 user_pref("datareporting.policy.dataSubmissionPolicyAcceptedVersion", 2);
 user_pref("device.sensors.enabled", false);
