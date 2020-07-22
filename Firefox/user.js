@@ -67,7 +67,7 @@ user_pref("dom.gamepad.enabled", false);
 user_pref("media.video_stats.enabled", false);
 user_pref("media.ondevicechange.enabled", false);
 user_pref("browser.library.activity-stream.enabled", false);
-user_pref("dom.serviceWorkers.enabled", false);//Could break sites
+user_pref("dom.serviceWorkers.enabled", false);   //Could break sites
 user_pref("dom.ipc.plugins.flash.subprocess.crashreporter.enabled", false);
 user_pref("dom.ipc.plugins.reportCrashURL", false);
 user_pref("media.getusermedia.screensharing.enabled", false);
@@ -91,7 +91,7 @@ user_pref("browser.ctrlTab.recentlyUsedOrder", false);
 user_pref("browser.discovery.enabled", false);
 user_pref("browser.download.hide_plugins_without_extensions", false);
 user_pref("browser.formfill.enable", false);
-//user_pref("browser.launcherProcess.enabled", true); Windows
+//user_pref("browser.launcherProcess.enabled", true); //Windows
 user_pref("browser.link.open_newwindow.restriction", 0);
 user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.addons", false);
 user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.features", false);
@@ -119,16 +119,16 @@ user_pref("browser.privatebrowsing.autostart", true);
 user_pref("browser.search.suggest.enabled", false);
 user_pref("browser.search.update", false);
 user_pref("browser.send_pings.require_same_host", true);
-//user_pref("browser.sessionstore.interval", 3600000);// reduce writes on drive
+//user_pref("browser.sessionstore.interval", 3600000);    // reduce writes on drive
 user_pref("browser.sessionhistory.max_entries", 5);
 user_pref("browser.sessionstore.max_tabs_undo", 0);
 user_pref("browser.sessionstore.privacy_level", 2);
 user_pref("browser.sessionstore.resume_from_crash", false);
 user_pref("browser.shell.checkDefaultBrowser", false);
 user_pref("browser.shell.didSkipDefaultBrowserCheckOnFirstRun", true);
-//user_pref("browser.tabs.remote.autostart", false); //will reduce ram usage but reduce perfomance
+//user_pref("browser.tabs.remote.autostart", false);  //will reduce ram usage but reduce perfomance
 user_pref("browser.tabs.warnOnClose", false);
-//user_pref("browser.taskbar.lists.frequent.enabled", false); windows
+//user_pref("browser.taskbar.lists.frequent.enabled", false); //windows
 user_pref("browser.touchmode.auto", false);
 user_pref("dom.w3c_touch_events.enabled", 0);
 user_pref("browser.uidensity", 1);
@@ -151,8 +151,8 @@ user_pref("doh-rollout.balrog-migration-done", true);
 user_pref("dom.battery.enabled", false);
 user_pref("dom.enable_performance", false);
 user_pref("dom.enable_resource_timing", false);
-user_pref("dom.event.clipboardevents.enabled", false); //Breaks copy/paste function on JS-based web applications like Google Docs.
-user_pref("dom.event.contextmenu.enabled", false);//Breaks right-click function on JS-based web applications like Google Docs.
+user_pref("dom.event.clipboardevents.enabled", false);  //Breaks copy/paste function on JS-based web applications like Google Docs.
+user_pref("dom.event.contextmenu.enabled", false);  //Breaks right-click function on JS-based web applications like Google Docs.
 user_pref("dom.events.asyncClipboard", false);
 user_pref("dom.forms.autocomplete.formautofill", false);
 user_pref("dom.vr.enabled", false);
@@ -164,15 +164,15 @@ user_pref("general.autoScroll", false);
 user_pref("general.smoothScroll", false);
 user_pref("geo.enabled", false);
 user_pref("geo.provider.network.url", "https://location.services.mozilla.com/v1/geolocate?key=%MOZILLA_API_KEY%");
-//user_pref("geo.provider.ms-windows-location", false); // [WINDOWS]
-//user_pref("geo.provider.use_corelocation", false); // [MAC]
-//user_pref("geo.provider.use_gpsd", false); // [LINUX]
+//user_pref("geo.provider.ms-windows-location", false);  // [WINDOWS]
+//user_pref("geo.provider.use_corelocation", false);   // [MAC]
+//user_pref("geo.provider.use_gpsd", false);     // [LINUX]
 user_pref("browser.search.geoSpecificDefaults", false);
 user_pref("browser.search.geoSpecificDefaults.url", "");
 user_pref("javascript.options.asmjs", false);
 //user_pref("javascript.options.wasm", false);  //breaks crunchyroll subs
 user_pref("layout.css.visited_links_enabled", false);
-//user_pref("layers.mlgpu.sanity-test-failed", false); windows
+//user_pref("layers.mlgpu.sanity-test-failed", false); //windows
 user_pref("layout.spellcheckDefault", 0);
 user_pref("mathml.disabled", true);
 user_pref("media.autoplay.default", 0);
@@ -194,8 +194,8 @@ user_pref("media.peerconnection.use_document_iceservers", false);
 user_pref("media.peerconnection.video.enabled", false);
 user_pref("media.videocontrols.picture-in-picture.video-toggle.enabled", false);
 user_pref("media.webspeech.synth.enabled", false);
-//user_pref("media.wmf.deblacklisting-for-telemetry-in-gpu-process", false); //windows
-user_pref("network.auth.subresource-http-auth-allow", 0); // Might break change to 1
+//user_pref("media.wmf.deblacklisting-for-telemetry-in-gpu-process", false);  //windows
+user_pref("network.auth.subresource-http-auth-allow", 0);   // Might break change to 1
 user_pref("network.IDN_show_punycode", true);
 user_pref("network.connectivity-service.enabled", false);
 user_pref("network.cookie.cookieBehavior", 1);
@@ -204,16 +204,16 @@ user_pref("network.dns.disablePrefetch", true);
 user_pref("network.dns.disablePrefetchFromHTTPS", true);
 user_pref("network.ftp.enabled", false);
 user_pref("network.http.max-persistent-connections-per-server", 10);
-user_pref("network.http.referer.XOriginPolicy", 1); // Setting to 2 breaks sites
+user_pref("network.http.referer.XOriginPolicy", 1);   // Setting to 2 breaks sites
 user_pref("network.http.referer.XOriginTrimmingPolicy", 2);
 user_pref("network.http.referer.trimmingPolicy", 2);
-//user_pref("network.http.referer.spoofSource", true); // Breaks sites
-//user_pref("network.http.sendRefererHeader", 0); // Breaks sites
+//user_pref("network.http.referer.spoofSource", true);  // Breaks sites
+//user_pref("network.http.sendRefererHeader", 0);  // Breaks sites
 user_pref("network.http.speculative-parallel-limit", 0);
-//user_pref("network.predictor.cleaned-up", true); Windows
+//user_pref("network.predictor.cleaned-up", true);  //Windows
 user_pref("network.predictor.enabled", false);
 user_pref("network.prefetch-next", false);
-//user_pref("network.protocol-handler.external.ms-windows-store", false); Windows
+//user_pref("network.protocol-handler.external.ms-windows-store", false); //Windows
 user_pref("network.protocol-handler.external.news", false);
 user_pref("network.protocol-handler.external.nntp", false);
 user_pref("network.protocol-handler.external.mailto", false);
@@ -229,7 +229,7 @@ user_pref("permissions.default.geo", 2);
 user_pref("permissions.default.microphone", 2);
 user_pref("permissions.delegation.enabled", false);
 user_pref("places.history.enabled", false);
-//user_pref("plugin.mousewheel.enabled", false); Windows
+//user_pref("plugin.mousewheel.enabled", false);  //Windows
 user_pref("plugin.scan.plid.all", false);
 user_pref("privacy.clearOnShutdown.offlineApps", true);
 user_pref("privacy.clearOnShutdown.siteSettings", true);
@@ -245,8 +245,8 @@ user_pref("privacy.sanitize.sanitizeOnShutdown", true);
 user_pref("privacy.sanitize.timeSpan", 0);
 user_pref("privacy.trackingprotection.enabled", true);
 user_pref("privacy.trackingprotection.socialtracking.enabled", true);
-//user_pref("sanity-test.advanced-layers", true);// windows
-//user_pref("sanity-test.running", false);//Windows
+//user_pref("sanity-test.advanced-layers", true);  // windows
+//user_pref("sanity-test.running", false);   //Windows
 user_pref("security.certerrors.recordEventTelemetry", false);
 user_pref("security.identitypopup.recordEventTelemetry", false);
 user_pref("security.pki.sha1_enforcement_level", 1);
@@ -281,7 +281,7 @@ user_pref("toolkit.telemetry.shutdownPingSender.enabled", false);
 user_pref("toolkit.telemetry.unified", false);
 user_pref("toolkit.telemetry.updatePing.enabled", false);
 //Disable any other "telemetry" and anything with "report" in about:config
-//user_pref("ui.osk.enabled", false); Windows
+//user_pref("ui.osk.enabled", false);  //Windows
 user_pref("webgl.enable-debug-renderer-info", false);
 user_pref("webgl.disabled", true);
 
@@ -291,10 +291,10 @@ user_pref("browser.search.region", "");
 
 user_pref("identity.fxaccounts.remote.profile.uri", "");
 user_pref("identity.mobilepromo.android", "");
-//user_pref("identity.mobile.promo", ""); //depreacted?
+//user_pref("identity.mobile.promo", "");   //depreacted?
 user_pref("identity.mobilepromo.ios", "");
 user_pref("layers.shared-buffer-provider.enabled", false);
-//user_pref("security.sandbox.logging.enabled", false); Windows
+//user_pref("security.sandbox.logging.enabled", false);  //Windows
 user_pref("toolkit.cosmeticAnimations.enabled", false);
 
 //If first party isolate is enabled but makes shit slow af
