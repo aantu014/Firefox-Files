@@ -254,6 +254,7 @@ user_pref("security.protectionspopup.recordEventTelemetry", false);
 user_pref("security.ssl.enable_false_start", false);
 user_pref("security.ssl.require_safe_negotiation", true);
 user_pref("security.ssl.treat_unsafe_negotiation_as_broken", true);
+// https://clienttest.ssllabs.com:8443/ssltest/viewMyClient.html
 user_pref("security.ssl3.rsa_des_ede3_sha", false);
 user_pref("security.ssl3.ecdhe_ecdsa_aes_128_sha", false);
 user_pref("security.ssl3.ecdhe_rsa_aes_128_sha", false);
@@ -261,6 +262,10 @@ user_pref("security.ssl3.dhe_rsa_aes_128_sha", false);
 user_pref("security.ssl3.dhe_rsa_aes_256_sha", false);
 user_pref("security.ssl3.rsa_aes_128_sha", false);
 user_pref("security.ssl3.rsa_aes_256_sha", false);
+user_pref("security.ssl3.ecdhe_ecdsa_aes_256_sha", false);
+user_pref("security.ssl3.ecdhe_rsa_aes_256_sha", false);
+user_pref("security.ssl3.rsa_aes_128_gcm_sha256", false);
+user_pref("security.ssl3.rsa_aes_256_gcm_sha384", false);
 user_pref("security.tls.enable_0rtt_data", false);
 user_pref("security.tls.version.min", 3);
 user_pref("services.sync.globalScore", 0);
