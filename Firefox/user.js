@@ -182,6 +182,7 @@ user_pref("media.gmp-gmpopenh264.enabled", false);
 user_pref("media.gmp.storage.version.observed", 1);
 user_pref("media.hardware-video-decoding.failed", false);
 user_pref("media.navigator.enabled", false);
+user_pref("media.navigator.video.enabled", false);
 user_pref("media.getusermedia.aec_enabled", false);
 user_pref("media.getusermedia.agc_enabled", false);
 user_pref("media.getusermedia.noise_enabled", false);
