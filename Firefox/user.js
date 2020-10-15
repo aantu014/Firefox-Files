@@ -22,6 +22,10 @@ user_pref("browser.safebrowsing.provider.google4.reportPhishMistakeURL", "");
 user_pref("browser.safebrowsing.provider.google4.reportURL", "");
 user_pref("browser.safebrowsing.reportPhishURL", "");
 
+user_pref("browser.ssl_override_behavior", 1);
+user_pref("network.cookie.thirdparty.sessionOnly", true);
+
+
 //If connecting to public wifi asking for Terms of Service might not be able to connect.
 user_pref("captivedetect.canonicalURL", "");
 user_pref("network.captive-portal-service.enabled", false);
