@@ -309,7 +309,6 @@ user_pref("identity.mobilepromo.android", "");
 user_pref("identity.mobilepromo.ios", "");
 user_pref("layers.shared-buffer-provider.enabled", false);
 //user_pref("security.sandbox.logging.enabled", false);  //Windows
-user_pref("toolkit.cosmeticAnimations.enabled", false);
 
 //If first party isolate is enabled but makes shit slow af
 //user_pref("network.http.altsvc.enabled", false);
