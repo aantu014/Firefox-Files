@@ -137,7 +137,6 @@ user_pref("browser.touchmode.auto", false);
 user_pref("dom.w3c_touch_events.enabled", 0);
 user_pref("browser.uidensity", 1);
 user_pref("browser.urlbar.autoFill", false);
-user_pref("browser.urlbar.oneOffSearches", false);
 user_pref("browser.urlbar.placeholderName", "DuckDuckGo");
 user_pref("browser.urlbar.placeholderName.private", "DuckDuckGo");
 user_pref("browser.urlbar.speculativeConnect.enabled", false);
