@@ -291,8 +291,8 @@ user_pref("security.protectionspopup.recordEventTelemetry", false);
 user_pref("security.ssl.enable_false_start", false);
 user_pref("security.ssl.require_safe_negotiation", true);
 user_pref("security.ssl.treat_unsafe_negotiation_as_broken", true);
-
-
+user_pref("dom.security.https_only_mode", true);
+user_pref("dom.security.https_only_mode_ever_enabled", true);
 // https://clienttest.ssllabs.com:8443/ssltest/viewMyClient.html
 user_pref("security.ssl3.rsa_des_ede3_sha", false);
 user_pref("security.ssl3.ecdhe_ecdsa_aes_128_sha", false);
