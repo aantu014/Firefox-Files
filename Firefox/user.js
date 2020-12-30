@@ -142,6 +142,7 @@ user_pref("browser.ping-centre.telemetry", false);
 user_pref("browser.privatebrowsing.autostart", true);
 user_pref("browser.search.suggest.enabled", false);
 user_pref("browser.search.update", false);
+user_pref("services.sync.prefs.sync.browser.search.update", false);
 user_pref("browser.send_pings.require_same_host", true);
 //user_pref("browser.sessionstore.interval", 3600000);    // reduce writes on drive
 user_pref("browser.sessionhistory.max_entries", 5);
