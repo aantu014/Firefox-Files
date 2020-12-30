@@ -164,7 +164,9 @@ user_pref("browser.urlbar.speculativeConnect.enabled", false);
 user_pref("browser.urlbar.suggest.bookmark", false);
 user_pref("services.sync.prefs.sync.browser.urlbar.suggest.bookmark", false);
 user_pref("browser.urlbar.suggest.history", false);
+user_pref("services.sync.prefs.sync.browser.urlbar.suggest.history", false);
 user_pref("browser.urlbar.suggest.openpage", false);
+user_pref("services.sync.prefs.sync.browser.urlbar.suggest.openpage", false);
 user_pref("browser.uitour.enabled", false);
 user_pref("browser.uitour.url", "");
 user_pref("datareporting.healthreport.infoURL, "");
@@ -175,6 +177,7 @@ user_pref("distribution.iniFile.exists.value", false);
 user_pref("doh-rollout.balrog-migration-done", true);
 user_pref("dom.battery.enabled", false);
 user_pref("dom.enable_performance", false);
+user_pref("dom.enable_performance_observer", false);
 user_pref("dom.enable_resource_timing", false);
 user_pref("dom.event.clipboardevents.enabled", false);  //Breaks copy/paste function on JS-based web applications like Google Docs.
 user_pref("dom.event.contextmenu.enabled", false);  //Breaks right-click function on JS-based web applications like Google Docs.
@@ -186,21 +189,25 @@ user_pref("dom.vibrator.enabled", false);
 user_pref("extensions.pocket.enabled", false);
 //user_pref("font.internaluseonly.changed", false); //Windows
 user_pref("general.autoScroll", false);
+user_pref("services.sync.prefs.sync.general.autoScroll", false);
 user_pref("general.smoothScroll", false);
+user_pref("services.sync.prefs.sync.general.smoothScroll", false);
 user_pref("geo.enabled", false);
 user_pref("geo.provider.network.url", "https://location.services.mozilla.com/v1/geolocate?key=%MOZILLA_API_KEY%");
 //user_pref("geo.provider.ms-windows-location", false);  // [WINDOWS]
 //user_pref("geo.provider.use_corelocation", false);   // [MAC]
 //user_pref("geo.provider.use_gpsd", false);     // [LINUX]
-user_pref("browser.search.geoSpecificDefaults", false);
-user_pref("browser.search.geoSpecificDefaults.url", "");
+#user_pref("browser.search.geoSpecificDefaults", false); #Deprecated?
+#user_pref("browser.search.geoSpecificDefaults.url", "");#Deprecated?
 user_pref("javascript.options.asmjs", false);
 //user_pref("javascript.options.wasm", false);  //breaks crunchyroll subs
 user_pref("layout.css.visited_links_enabled", false);
 //user_pref("layers.mlgpu.sanity-test-failed", false); //windows
 user_pref("layout.spellcheckDefault", 0);
+user_pref("services.sync.prefs.sync.layout.spellcheckDefault", false);
 user_pref("mathml.disabled", true);
 user_pref("media.autoplay.default", 0);
+user_pref("services.sync.prefs.sync.media.autoplay.default", 0);
 //user_pref("media.eme.enabled", false);  //Wont be able to watch watch Netflix nor Crunchyroll
 //user_pref("media.gmp-widevinecdm.enabled", false); //Wont be able to watch watch Netflix nor Crunchyroll
 user_pref("media.gmp-gmpopenh264.enabled", false);
@@ -219,6 +226,7 @@ user_pref("media.peerconnection.turn.disable", true);
 user_pref("media.peerconnection.use_document_iceservers", false);
 user_pref("media.peerconnection.video.enabled", false);
 user_pref("media.videocontrols.picture-in-picture.video-toggle.enabled", false);
+user_pref("services.sync.prefs.sync.media.videocontrols.picture-in-picture.video-toggle.enabled", false);
 user_pref("media.webspeech.synth.enabled", false);
 //user_pref("media.wmf.deblacklisting-for-telemetry-in-gpu-process", false);  //windows
 user_pref("network.auth.subresource-http-auth-allow", 0);   // Might break change to 1
