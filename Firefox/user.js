@@ -84,6 +84,7 @@ user_pref("accessibility.force_disabled", 1);
 user_pref("accessibility.typeaheadfind.flashBar", 0);
 user_pref("app.normandy.first_run", false);
 user_pref("app.shield.optoutstudies.enabled", false);
+user_pref("services.sync.prefs.sync.app.shield.optoutstudies.enabled", false);
 user_pref("beacon.enabled", false);
 user_pref("browser.aboutConfig.showWarning", false);
 user_pref("browser.cache.disk.enable", false);
