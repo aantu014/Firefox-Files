@@ -311,6 +311,7 @@ user_pref("services.sync.globalScore", 0);
 user_pref("services.sync.nextSync", 0);
 user_pref("services.sync.tabs.lastSync", "0");
 user_pref("signon.autofillForms", false);
+user_pref("services.sync.prefs.sync.signon.autofillForms", false);
 user_pref("signon.formlessCapture.enabled", false);
 user_pref("signon.generation.enabled", false);
 user_pref("signon.management.page.breach-alerts.enabled", false);
