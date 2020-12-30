@@ -323,12 +323,14 @@ user_pref("signon.rememberSignons.visibilityToggle", false);
 user_pref("toolkit.telemetry.archive.enabled", false);
 user_pref("toolkit.telemetry.bhrPing.enabled", false);
 user_pref("toolkit.telemetry.firstShutdownPing.enabled", false);
-user_pref("toolkit.telemetry.hybridContent.enabled", false);
+#user_pref("toolkit.telemetry.hybridContent.enabled", false); #Deprecated
 user_pref("toolkit.telemetry.newProfilePing.enabled", false);
 user_pref("toolkit.telemetry.reportingpolicy.firstRun", false);
 user_pref("toolkit.telemetry.shutdownPingSender.enabled", false);
 user_pref("toolkit.telemetry.unified", false);
 user_pref("toolkit.telemetry.updatePing.enabled", false);
+user_pref("security.app_menu.recordEventTelemetry", false);
+user_pref("dom.security.unexpected_system_load_telemetry_enabled", false);
 //Disable any other "telemetry" and anything with "report" in about:config
 //user_pref("ui.osk.enabled", false);  //Windows
 user_pref("webgl.enable-debug-renderer-info", false);
