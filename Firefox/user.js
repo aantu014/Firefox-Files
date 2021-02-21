@@ -190,6 +190,8 @@ user_pref("dom.vr.enabled", false);
 user_pref("dom.vibrator.enabled", false);
 //user_pref("dom.ipc.processCount", 1);                     //Might cause performance dips
 user_pref("extensions.pocket.enabled", false);
+user_pref("extensions.pocket.api", "");
+user_pref("extensions.pocket.site", "");
 //user_pref("font.internaluseonly.changed", false); //Windows
 user_pref("general.autoScroll", false);
 user_pref("services.sync.prefs.sync.general.autoScroll", false);
