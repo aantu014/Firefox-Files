@@ -323,7 +323,7 @@ user_pref("signon.rememberSignons.visibilityToggle", false);
 user_pref("toolkit.telemetry.archive.enabled", false);
 user_pref("toolkit.telemetry.bhrPing.enabled", false);
 user_pref("toolkit.telemetry.firstShutdownPing.enabled", false);
-#user_pref("toolkit.telemetry.hybridContent.enabled", false); #Deprecated
+//user_pref("toolkit.telemetry.hybridContent.enabled", false); //Deprecated
 user_pref("toolkit.telemetry.newProfilePing.enabled", false);
 user_pref("toolkit.telemetry.reportingpolicy.firstRun", false);
 user_pref("toolkit.telemetry.shutdownPingSender.enabled", false);
