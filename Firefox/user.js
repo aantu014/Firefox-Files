@@ -135,7 +135,7 @@ user_pref("browser.newtabpage.activity-stream.showSponsoredTopSites", false);
 user_pref("services.sync.prefs.sync.browser.newtabpage.activity-stream.showSponsoredTopSites", false);
 user_pref("browser.newtabpage.activity-stream.telemetry.structuredIngestion.endpoint", "");
 user_pref("browser.newtabpage.activity-stream.telemetry", false);
-#user_pref("browser.newtabpage.activity-stream.telemetry.structuredIngestion", false); # Deprecated?
+//user_pref("browser.newtabpage.activity-stream.telemetry.structuredIngestion", false); // Deprecated?
 user_pref("browser.newtabpage.storageVersion", 1);
 user_pref("browser.pagethumbnails.storage_version", 3);
 user_pref("browser.ping-centre.telemetry", false);
@@ -197,8 +197,8 @@ user_pref("geo.provider.network.url", "https://location.services.mozilla.com/v1/
 //user_pref("geo.provider.ms-windows-location", false);  // [WINDOWS]
 //user_pref("geo.provider.use_corelocation", false);   // [MAC]
 //user_pref("geo.provider.use_gpsd", false);     // [LINUX]
-#user_pref("browser.search.geoSpecificDefaults", false); #Deprecated?
-#user_pref("browser.search.geoSpecificDefaults.url", "");#Deprecated?
+//user_pref("browser.search.geoSpecificDefaults", false); //Deprecated?
+//user_pref("browser.search.geoSpecificDefaults.url", ""); //Deprecated?
 user_pref("javascript.options.asmjs", false);
 //user_pref("javascript.options.wasm", false);  //breaks crunchyroll subs
 user_pref("layout.css.visited_links_enabled", false);
