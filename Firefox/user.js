@@ -336,7 +336,9 @@ user_pref("security.app_menu.recordEventTelemetry", false);
 user_pref("dom.security.unexpected_system_load_telemetry_enabled", false);
 //Disable any other "telemetry" and anything with "report" in about:config
 //user_pref("ui.osk.enabled", false);  //Windows
+user_pref("webgl.disable-fail-if-major-performance-caveat", false);
 user_pref("webgl.enable-debug-renderer-info", false);
+user_pref("webgl.enable-webgl2", false);
 user_pref("webgl.disabled", true);
 
 ////test These out
