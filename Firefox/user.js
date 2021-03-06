@@ -260,7 +260,9 @@ user_pref("network.protocol-handler.external.nntp", false);
 user_pref("network.protocol-handler.external.mailto", false);
 user_pref("network.protocol-handler.external.snews", false);
 user_pref("network.proxy.socks_remote_dns", true);
-user_pref("network.security.esni.enabled", true);
+//user_pref("network.security.esni.enabled", true); //deprecated
+user_pref("network.dns.echconfig.enabled", true);
+user_pref("network.dns.use_https_rr_as_altsvc", true);
 user_pref("network.trr.bootstrapAddress", "1.1.1.1");
 user_pref("network.trr.mode", 2);
 user_pref("network.trr.uri", "https://mozilla.cloudflare-dns.com/dns-query");
