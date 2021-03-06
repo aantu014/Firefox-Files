@@ -98,11 +98,12 @@ user_pref("services.sync.prefs.sync.browser.ctrlTab.recentlyUsedOrder", false);
 user_pref("browser.discovery.enabled", false);
 user_pref("services.sync.prefs.sync.browser.startup.homepage", false);
 user_pref("services.sync.prefs.sync.browser.discovery.enabled", false);
-#user_pref("browser.download.hide_plugins_without_extensions", false); #check if still used.
+//user_pref("browser.download.hide_plugins_without_extensions", false); #check if still used.
 user_pref("browser.formfill.enable", false);
 user_pref("services.sync.prefs.sync.browser.formfill.enable", false);
 //user_pref("browser.launcherProcess.enabled", true); //Windows
 user_pref("browser.link.open_newwindow.restriction", 0);
+//find any pres with services.sync.prefs.sync.browser.newtabpage
 user_pref("services.sync.prefs.sync.browser.newtabpage.pinned", false);
 user_pref("services.sync.prefs.sync.browser.newtabpage.enabled", false);
 user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.addons", false);
