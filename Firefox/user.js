@@ -218,7 +218,7 @@ user_pref("services.sync.prefs.sync.media.autoplay.default", 0);
 //user_pref("media.gmp-widevinecdm.enabled", false); //Wont be able to watch watch Netflix nor Crunchyroll
 user_pref("media.gmp-gmpopenh264.enabled", false);
 user_pref("media.gmp.storage.version.observed", 1);
-user_pref("media.hardware-video-decoding.failed", false);
+//user_pref("media.hardware-video-decoding.failed", false); //Deprecrated??
 user_pref("media.navigator.enabled", false);
 user_pref("media.navigator.video.enabled", false);
 user_pref("media.getusermedia.aec_enabled", false);
