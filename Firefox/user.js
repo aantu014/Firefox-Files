@@ -90,6 +90,7 @@ user_pref("beacon.enabled", false);
 user_pref("browser.aboutConfig.showWarning", false);
 user_pref("browser.cache.disk.enable", false);
 user_pref("browser.cache.disk_cache_ssl", false);
+user_pref("browser.cache.disk.capacity", 0);
 user_pref("browser.cache.offline.enable", false);
 user_pref("browser.cache.offline.storage.enable", false);
 user_pref("browser.contentblocking.category", "custom");
