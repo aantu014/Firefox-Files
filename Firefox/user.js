@@ -215,6 +215,7 @@ user_pref("services.sync.prefs.sync.layout.spellcheckDefault", false);
 user_pref("mathml.disabled", true);
 user_pref("media.autoplay.default", 0);
 user_pref("services.sync.prefs.sync.media.autoplay.default", 0);
+//user_pref("browser.eme.ui.enabled", false); //Notification to enable DRM
 //user_pref("media.eme.enabled", false);  //Wont be able to watch watch Netflix nor Crunchyroll
 //user_pref("media.gmp-widevinecdm.enabled", false); //Wont be able to watch watch Netflix nor Crunchyroll
 user_pref("media.gmp-gmpopenh264.enabled", false);
