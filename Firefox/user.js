@@ -9,6 +9,8 @@
 // - modify it via the UI (e.g. via about:config in the browser); or
 // - set it within a user.js file in your profile.
 
+user_pref("browser.uidensity", 1);
+
 //user_pref("browser.safebrowsing.downloads.remote.enabled", false); //More privacy but less security when downloading shit. STRONGLY NOT RECOMMENDED
 // user_pref("browser.safebrowsing.malware.enabled", false); //More privacy but less security  STRONGLY NOT RECOMMENDED
 // user_pref("browser.safebrowsing.phishing.enabled", false); //More privacy but less security  STRONGLY NOT RECOMMENDED
