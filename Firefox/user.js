@@ -245,7 +245,7 @@ user_pref("network.IDN_show_punycode", true);
 user_pref("network.connectivity-service.enabled", false);
 user_pref("network.cookie.cookieBehavior", 1);
 user_pref("network.cookie.lifetimePolicy", 2);
-user_pref("network.dns.disablePrefetch", true);etwork.http.referer.XOriginPolicy
+user_pref("network.dns.disablePrefetch", true);
 user_pref("network.dns.disablePrefetchFromHTTPS", true);
 user_pref("network.ftp.enabled", false);
 user_pref("network.http.max-persistent-connections-per-server", 10);
