@@ -159,8 +159,8 @@ user_pref("dom.storage.enabled", false);
 user_pref("network.http.altsvc.enabled", false);
 user_pref("network.http.altsvc.oe", false);
 user_pref("xpinstall.whitelist.required", true);
-//Spoof UserAgent
-user_pref("general.useragent.override", "Mozilla/5.0 (Windows NT 10.0; rv:68.0) Gecko/20100101 Firefox/68.0");
+//Spoof UserAgent   https://www.whatismybrowser.com/guides/the-latest-user-agent/chrome
+user_pref("general.useragent.override", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36");
 
 user_pref("browser.geolocation.warning.infoURL", "");
 user_pref("layers.shared-buffer-provider.enabled", false);
